@@ -1,5 +1,8 @@
 package Tucker.helloworld;
 
+
+import java.util.Date;
+
 /**
  * Author@ Zach Tucker
  * Version @5/5/2019
@@ -12,5 +15,6 @@ public class HelloWorld {
     {
 
         System.out.println("Hello World");
+        System.out.println(new Date());
     }
 }
